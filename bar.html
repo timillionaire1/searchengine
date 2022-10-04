@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content='search engine, search filter, html, css, javascript'> 
+    <meta name='description' content='A search engine is software accessed on the Internet
+     that searches a database of information according to the user's query.'>
+    <meta name='author' content='CWWTechAfrica Cohort2.0 Group 13 Project'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWW Search Engine</title>
+    <style>
+        section{
+            display:grid;
+            place-items:center;
+            margin-top:200px;
+        }
+        #img{
+            position:absolute;
+            top:277px;
+            left:800px;
+            cursor:pointer;
+        }
+        #search-box{
+            width:350px;
+            height:20px;
+            font-size:large;
+            padding:4px;
+            border-radius:16px;
+            border:2px solid blue;
+        }
+        .list{
+           display:none; 
+           cursor:pointer;
+           list-style:none;
+           margin-right:250px;
+        }
+        .list:hover{
+            background-color:darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="icon.png">
+        <input type="text" id="search-box" onkeyup="searchInput()" placeholder="Type and search" autocomplete="on">
+        <img id='img' src="search.png">
+        <ul id="parent">
+            <li class="list">javascript</li>
+            <li class="list">html</li>
+            <li class="list">css</li>
+            <li class="list">saas</li>
+            <li class="list">php</li>
+            <li class="list">digital marketing</li>
+            <li class="list">web development</li>
+            <li class="list">graphic design</li>
+            <li class="list">machine learning</li>
+            <li class="list">database management</li>
+            <li class="list">backend development</li>
+            <li class="list">bootcamp</li>
+            <li class="list">cwwtechafrica</li>
+            <li class="list">cwwtechafricacohort2</li>
+            <li class="list">cwwtechafrica2022</li>
+            <li class="list">cohort</li>
+            <li class="list">robert sam</li>
+            <li class="list">aliyu ibrahim</li>
+            <li class="list">search filter</li>
+            <li class="list">search engine</li>
+        </ul>
+    </section>
+</body>
+<script src="bar.js"></script>
+</html>
